@@ -4,11 +4,13 @@
     <title>
       Calculator
     </title>
+    <!-- Enlace al archivo de estilos -->
     <link rel="stylesheet" href="../style/estilos.css">
   </head>
   <body>
+    <!-- Pantalla de la calculadora -->
     <p class="js-calculation calculation"></p>
-
+    <!-- Botones numéricos y operadores -->
     <p>
       <button onclick="
         updateCalculation('1');
@@ -81,7 +83,7 @@
         updateCalculation('/');
       " class="calculator-button orange-button">/</button>
     </p>
-
+    <!-- Botones de limpieza -->
     <p class="removes-container">
       <button onclick="
         calculation = '';
@@ -92,7 +94,7 @@
         deleteLastCharacter();
       " class="calculator-button gray-button delete-button">Delete</button>
     </p>
-   
+   <!-- Inclusión del archivo de scripts -->
     <script src="../scripts/scripts.js">
       
     </script>
